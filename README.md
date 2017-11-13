@@ -1,9 +1,7 @@
 ## React GraphQL Relay Cosmo
 
+## Install
 
-## Installing
-
-cd rgrjs
 npm install
 export MONGO_URL=....
 npm start
