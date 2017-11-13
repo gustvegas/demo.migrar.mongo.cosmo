@@ -1,0 +1,43 @@
+{
+  "name": "rgrjs",
+  "version": "1.0.0",
+  "description": "A collection of educational resources about React, GraphQL, and Relay",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node --presets react,es2015,stage-0 server.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgrjs/react-graphql-relay-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgrjs/react-graphql-relay-example/issues"
+  },
+  "homepage": "https://github.com/rgrjs/react-graphql-relay-example#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-relay-plugin": "^0.7.1",
+    "events": "^1.1.0",
+    "express": "^4.13.4",
+    "express-graphql": "^0.4.9",
+    "flux": "^2.1.1",
+    "graphql": "^0.4.18",
+    "graphql-relay": "^0.3.6",
+    "kerberos": "0.0.18",
+    "lodash": "^4.5.0",
+    "moment": "^2.11.2",
+    "mongodb": "^2.1.7",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-relay": "^0.7.1",
+    "webpack": "^1.12.13"
+  }
+}
